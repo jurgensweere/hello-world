@@ -1,0 +1,15 @@
+{
+    "browsers": [
+        "chrome"
+    ],
+    "nativeAutomation": "true",
+    "src": "./tests/functional/**/*.cspec.js",
+    "hostname": "localhost",
+    "screenshots": {
+        "takeOnFails": true,
+        "path": "./tests/screenshots",
+        "fullPage": true,
+        "pathPattern": "${FIXTURE}/${TEST}/test-${TEST_INDEX}/${USERAGENT}/${FILE_INDEX}.png"
+    },
+    "pageLoadTimeout": 10000
+}
