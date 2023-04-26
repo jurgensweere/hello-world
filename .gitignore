@@ -21,3 +21,7 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# tests
+/tests/functional/reports
+/tests/functional/screenshots
