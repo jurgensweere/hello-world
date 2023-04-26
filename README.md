@@ -5,15 +5,8 @@
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### Running testcafe
 
-### Compiles and minifies for production
 ```
-npm run build
+npm run serve-test
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

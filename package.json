@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve --host localhost",
     "build": "vue-cli-service build",
-    "serve-test": "start-server-and-test serve http://localhost:8080 ft-real",
+    "serve-test": "start-server-and-test serve http://localhost:8080 test",
     "test": "testcafe -c 2"
   },
   "dependencies": {
